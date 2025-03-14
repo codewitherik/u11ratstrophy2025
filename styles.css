@@ -1,0 +1,331 @@
+/* Allgemeine Formatierungen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Hide Preloader after content loads */
+  body.loaded #preloader {
+    display: none;
+  }
+  
+  /* Header */
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Countdown Section */
+  #countdown {
+    padding: 50px;
+    text-align: center;
+    background-color: #003366;
+    color: white;
+  }
+  
+  #timer {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .time {
+    display: inline-block;
+    padding: 10px;
+    background-color: #ff9900;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  
+  /* Turnierdetails */
+  #tournament-details {
+    padding: 50px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .tournament-info h2 {
+    font-size: 2.5em;
+  }
+  
+  /* Gruppen der Teams */
+  .team-groups {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .team-groups .group {
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  
+  .team-groups h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .team-groups ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .team-groups ul li {
+    font-size: 1.2em;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer .social-links {
+    margin-bottom: 20px;
+  }
+  
+  footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  footer .social-links a:hover {
+    text-decoration: underline;
+  }
+
+  
+/* Allgemeine Formatierungen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://example.com/hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .hero-content h2 {
+    font-size: 3em;
+  }
+  
+  .hero-content p {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  /* Turnierdetails */
+  #tournament-details {
+    padding: 50px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .tournament-info h2 {
+    font-size: 2.5em;
+  }
+  
+  .event-info {
+    margin-top: 20px;
+  }
+  
+  /* Tickets */
+  #ticket-sale {
+    padding: 50px;
+    text-align: center;
+    background-color: #003366;
+    color: white;
+  }
+  
+  #ticket-sale .btn {
+    background-color: #ff9900;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  #ticket-sale .btn:hover {
+    background-color: #ff6600;
+  }
+  
+  /* Contact */
+  #contact {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer .social-links {
+    margin-bottom: 20px;
+  }
+  
+  footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  footer .social-links a:hover {
+    text-decoration: underline;
+  }
+
+
+  /* Stil für das kleine Bild */
+.small-logo {
+    width: 50px; /* Setzt die Breite des Bildes auf 50px */
+    height: auto; /* Beibehaltung des Seitenverhältnisses */
+    margin-left: 10px; /* Abstand zwischen Text und Bild */
+  }
+  
+  /* Wenn du das Bild noch in anderen Bereichen anzeigen möchtest, kannst du den Stil überall hinzufügen */
+
+  /* Turnierdetails */
+#tournament-details {
+    padding: 50px;
+    background-color: #ffffff;
+    color: #333;
+    text-align: left;
+  }
+  
+  .tournament-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .tournament-info h3 {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .tournament-info ul {
+    list-style-type: disc;
+    margin-left: 30px;
+  }
+  
+  .tournament-info ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .tournament-info a {
+    color: #003366;
+    text-decoration: none;
+  }
+  
+  .tournament-info a:hover {
+    text-decoration: underline;
+  }
+
+/* Countdown-Stil */
+.countdown-timer {
+    font-size: 2em;
+    font-weight: bold;
+    color: #003366;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #003366;
+    border-radius: 10px;
+  }
+  
+  .countdown-timer p {
+    font-size: 1.5em;
+  }
+  
+  #timer {
+    font-size: 3em;
+    color: #e60000;
+  }
+  
+  

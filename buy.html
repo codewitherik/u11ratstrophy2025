@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticketkauf - Young Rats Hockey Trophy 2025</title>
+  <style>
+    /* Allgemeines Styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #003366;
+    }
+
+    /* Formular-Container */
+    .form-container {
+      background-color: #ffffff;
+      border: 2px solid #003366;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 30px;
+    }
+
+    .form-container h2 {
+      color: #003366;
+      margin-bottom: 20px;
+    }
+
+    .form-container label {
+      font-size: 1.2em;
+      color: #333333;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .form-container input, 
+    .form-container select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0 20px;
+      border: 2px solid #003366;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    .form-container input[type="submit"] {
+      background-color: #003366;
+      color: white;
+      font-size: 1.2em;
+      cursor: pointer;
+      border: none;
+      transition: background-color 0.3s;
+    }
+
+    .form-container input[type="submit"]:hover {
+      background-color: #e60000;
+    }
+
+    /* Bestätigung */
+    .confirmation {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 1.2em;
+      color: #003366;
+    }
+
+    /* Zurück-Button */
+    .back-button {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .back-button a {
+      background-color: #003366;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.2em;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button a:hover {
+      background-color: #e60000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Ticketkauf - Young Rats Hockey Trophy 2025</h1>
+    <p>Füllen Sie das folgende Formular aus, um Ihre Tickets zu kaufen. Wählen Sie die Anzahl der Tickets und die entsprechende Ticketkategorie.</p>
+
+    <!-- Formular für den Ticketkauf -->
+    <div class="form-container">
+      <h2>Ticketbestellung</h2>
+      <form action="confirmation.html" method="post">
+        <label for="ticket-type">Ticketart:</label>
+        <select id="ticket-type" name="ticket-type" required>
+          <option value="VIP">VIP Ticket (€99,00)</option>
+          <option value="standard">Standard Ticket (€35,00)</option>
+          <option value="discount">Ermäßigtes Ticket (€15,00)</option>
+        </select>
+
+        <label for="quantity">Anzahl der Tickets:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+
+        <label for="name">Vor- und Nachname:</label>
+        <input type="text" id="name" name="name" placeholder="Ihr Name" required>
+
+        <label for="email">E-Mail-Adresse:</label>
+        <input type="email" id="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
+
+        <label for="phone">Telefonnummer:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Ihre Telefonnummer" required>
+
+        <input type="submit" value="Ticket kaufen">
+      </form>
+    </div>
+
+    <!-- Zurück-Button -->
+    <div class="back-button">
+      <a href="index.html">Zurück zur Startseite</a>
+    </div>
+  </div>
+
+</body>
+</html>
